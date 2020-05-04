@@ -14,6 +14,11 @@ const messages = {
             language: 'Language',
             loginBtn: 'Login'
         },
+        languageSelect: {
+            en: 'English',
+            ru: 'Russian',
+            az: 'Azerbaijan'
+        },
         },
     },
     ru: {
@@ -24,12 +29,32 @@ const messages = {
             language: 'Язык',
             loginBtn: 'Войти'
         },
+        languageSelect: {
+            en: 'Английский',
+            ru: 'Русский',
+            az: 'Азербайджанский'
+        },
+        },
+    },
+    az: {
+        $vuetify: {
+        dataIterator: {
+            login: 'İstifadəçi adı',
+            password: 'Şifrə',
+            language: 'Dil',
+            loginBtn: 'Daxil ol'
+        },
+        languageSelect: {
+            en: 'İngilis',
+            ru: 'Rus',
+            az: 'Azərbaycan'
+        },
         },
     },
 }
 
 export const i18n = new VueI18n({
-    locale: 'en', // set locale
+    locale: 'ru', // set locale
     messages, // set locale messages
 })
 

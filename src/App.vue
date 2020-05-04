@@ -20,7 +20,7 @@
                 dark
                 flat
               >
-                <v-toolbar-title>Авторизация</v-toolbar-title>
+                <v-toolbar-title>{{ $t('toolbar.title') }}</v-toolbar-title>
                 <v-spacer></v-spacer>
                 
               </v-toolbar>
@@ -42,9 +42,10 @@
                   <LanguageSelect />                 
                 </v-form>
               </v-card-text>
+              <!-- <language-switcher /> -->
               <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn color="primary">Войти</v-btn>
+                <v-btn color="primary">{{ $t('loginBtn.label') }}</v-btn>
               </v-card-actions>
             </v-card>
           </v-flex>
@@ -57,12 +58,14 @@
 <script>
 
 import LanguageSelect from '@/components/LanguageSelect.vue'
+// import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
 
 export default {
   name: 'App',
 
   components: {    
-    LanguageSelect
+    LanguageSelect,
+    // LanguageSwitcher
   },
 
   data: () => ({

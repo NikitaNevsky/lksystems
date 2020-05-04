@@ -1,3 +1,18 @@
 {
-  "message": "hello i18n !!"
+  "message": "hello i18n !!",
+  "toolbar": {
+    "title": "Authorization"
+  },
+  "login": {
+    "label": "Login"
+  },
+  "password": {
+    "label": "Password"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "loginBtn": {
+    "label": "Login"
+  }
 }

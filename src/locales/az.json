@@ -1,0 +1,18 @@
+{
+    "message": "Salam i18n !!",
+    "toolbar": {
+      "title": "Giriş"
+    },
+    "login": {
+      "label": "İstifadəçi adı"
+    },
+    "password": {
+      "label": "Şifrə"
+    },
+    "language": {
+      "label": "Dil"
+    },
+    "loginBtn": {
+      "label": "Daxil ol"
+    }
+  }
