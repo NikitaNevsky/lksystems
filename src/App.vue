@@ -27,14 +27,14 @@
               <v-card-text>
                 <v-form>
                   <v-text-field
-                    label="Логин"
+                    :label="$t('login.label')"
                     name="login"
                     prepend-icon="person"
                     type="text"
                   ></v-text-field>
                   <v-text-field
                     id="password"
-                    label="Пароль"
+                    :label="$t('password.label')"
                     name="password"
                     prepend-icon="lock"
                     type="password"
